@@ -1,0 +1,64 @@
+.dialogs {
+    width: 100%;
+    padding: 10px;
+    margin-left: 50px;
+    font-size: 24px;
+    color: white;
+}
+
+.dialog {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+    align-items: center;
+    background: rgba(110, 220, 217, 0.2) ;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.dialog:last-child {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    background: rgba(110, 220, 217, 0.2) ;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.dialog:last-child span {
+    margin-left: 10px;
+}
+
+.dialog span {
+    margin-right: 10px;
+}
+
+.img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.input {
+    display: flex;
+    margin: 10px;
+}
+
+textarea{
+    background-color: #6A8CFC;
+    width: 100%;
+    color: blueviolet;
+    border-radius: 15px;
+    padding: 5px;
+    border: none;
+}
+
+button {
+    background-color: #6A8CFC;
+    border: 1px solid blueviolet;
+    padding: 5px;
+    color: blueviolet;
+    font-weight: 700;
+    border-radius: 15px;
+}

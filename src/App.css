@@ -1,0 +1,17 @@
+.App {
+  display: grid;
+
+  grid-template-areas: "h h"
+                       "n c";
+
+  grid-template-rows: 80px 1fr;
+  grid-template-columns: 2fr 10fr;
+  background-color: #212121;
+  color: #fff;
+}
+
+.App-content {
+  grid-area: c;
+    background-color:#9C74F7;
+}
+

@@ -1,0 +1,11 @@
+.item {
+  color:black;
+}
+.item img {
+  width: 100px;
+  border-radius: 50%;
+}
+.item span {
+  margin-left: 10px;
+  color:red;
+}

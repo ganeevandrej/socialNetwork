@@ -1,0 +1,14 @@
+.block.errors textarea,
+.block.errors input{
+    border: 1px solid red;
+} 
+
+.block.errors span {
+    color: red;
+}
+
+.resultError {
+    color: red;
+    padding: 5px;
+    border: 1px solid red;
+}
